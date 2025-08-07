@@ -17,3 +17,27 @@ body {
     border-radius: 5px;
     box-shadow: 2px 3px #888888;
 }
+
+header h1 {
+font-size: 60px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-align: center;
+border-bottom: 1px solid #b09696;
+background-color: rgb(227, 53, 5);
+font-style: italic;
+border-radius: 30px;
+}
+
+.link-button{
+background-color: rgb(0, 255, 98);
+border-radius: 30px;
+color: rgb(128, 7, 241);
+padding: 10px 20px;
+font-size: 20px;
+}
+
+.link-button:hover {
+  background-color: #ff0101;
+}
+.link-button:active {
+  transform: scale(0.98);}
